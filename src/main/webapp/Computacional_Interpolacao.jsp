@@ -133,7 +133,7 @@
                                     uma relação entre o valor de uma diferença dividida e a derivada num certo ponto. 
                                     A diferença dividida de 1ª ordem é definida de uma forma geral por: <b>f [ xi, xj] = ( fi - fj ) / ( xi - xj )</b> </p>
 
-                                <p>e uma diferença dividida de ordem k, pode ser obtida a partir das anteriores :
+                                <p>e uma  diferença dividida de ordem k, pode ser obtida a partir das anteriores :
                                     f [ xi , ... , xi+k] = ( f [ xi+1, ... , xi+k ] - f [ xi, ... , xi+k-1 ] ) / ( xi+k - xi )
                                     (a regra subjacente é que no denominador vai ficar a diferença entre os nós, que não são comuns às diferenças divididas do numerador).
 
