@@ -5,16 +5,16 @@
         <servlet-class>br.com.qwerty.servelet.Servlet_interpolacao</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>pdf</servlet-name>
-        <servlet-class>pdf</servlet-class>
+        <servlet-name>Servlet_Bissecao</servlet-name>
+        <servlet-class>br.com.qwerty.servelet.Servlet_Bissecao</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet_Bissecao</servlet-name>
+        <url-pattern>/Servlet_Bissecao</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Servlet_interpolacao</servlet-name>
         <url-pattern>/Servlet_interpolacao</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>pdf</servlet-name>
-        <url-pattern>/pdf</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -172,7 +172,7 @@
         </ul>
 
         <!-- Teal page content  -->
-        <form action="Servlet_interpolacao" method="get" class="form">
+        <form action="Servlet_Bissecao" method="get" class="form">
 
             <div class="col s12 container">
                 <div class="input-field col s4 m3 l3">
