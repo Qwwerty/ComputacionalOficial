@@ -58,7 +58,7 @@
 
             <!-- Dropdown Structure 3 -->
             <ul id="dropdown3" class="dropdown-content">
-                <li><a href="#!">Método da Bisseção</a></li>
+                <li><a href="Computacional_Bissecao.jsp">Método da Bisseção</a></li>
                 <li><a href="#!">Método de Newton-Raphson</a></li>
                 <li><a href="#!">Método de Falsa Posição</a></li>
             </ul>
