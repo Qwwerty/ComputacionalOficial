@@ -1,0 +1,26 @@
+@media print {
+
+    #navMenu{
+        display: none;
+    }
+
+    .sidenav{
+        display: none;
+    }
+
+    #elementosComputacional{
+        display: none;
+    }
+
+    .parallax-container{
+        display: none;
+    }
+
+    .page-footer{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+}

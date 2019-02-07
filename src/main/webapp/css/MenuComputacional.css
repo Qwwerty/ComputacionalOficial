@@ -1,0 +1,55 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#menuAlgoritmos ul{
+    list-style: none;
+    margin: 0px;
+}
+
+#menuAlgoritmos ul li{
+    padding: 15px;
+    position: relative;
+    width: 216px;
+    vertical-align: middle;
+    background-color: #263238;
+    cursor: pointer;
+    border-top: 1px solid #BDC3C7;
+    -webkit-animation: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#menuAlgoritmos ul li:hover{
+    background-color: #ff0000;
+}
+
+#menuAlgoritmos > ul > li{
+    border-right: 5px solid #ff0000;
+}
+
+#menuAlgoritmos ul ul{
+    transition:  all 0.3s;
+    opacity: 0;
+    position: absolute;
+    border-left: 5px solid #ff0000;
+    visibility: hidden;
+    left: 100%;
+    top: -2%;
+}
+
+#menuAlgoritmos ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+#menuAlgoritmos ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.sidenav{
+    background-color: #ff0000;
+}
+

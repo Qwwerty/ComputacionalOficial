@@ -1,0 +1,129 @@
+{
+    font-family: arial;
+    color: #fff;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#padraTexto h6{
+
+    border-top-style: solid;
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+p{
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+nav{
+    height: 80px;
+}
+
+#navMenu{
+    background-color: #ff0000;
+    height: 115px;
+}
+
+nav .nav-wrapper {
+    height: 100%;
+}
+
+/*Ṕosição do icon do menu mobile*/
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    margin-top: 20px;
+}
+
+nav ul a {
+
+    margin-top: 30px;
+}
+
+/*Design cor do sidenav Mobile*/
+.sidenav{
+    background-color: #263238;
+}
+
+.sidenav li > a {
+    color: #fff;
+}
+
+.dropdown-content {
+    background-color: #263238;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active {
+    background-color: #ff0000;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #fff;
+}
+
+/*Mudar cor do Slider*/
+.slider .indicators .indicator-item.active {
+    background-color: #ff0000;
+}
+
+/*Menu Computacional*/
+#menuAlgoritmos{
+    background-color: #263238;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat {
+    width: 300px;
+}
+
+#elementosComputacional{
+    
+    background-color: #263238;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+#elementosComputacional li a{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card-panel{
+    border-radius: 10px;
+}
+
+/*Formulario*/
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    
+    border-bottom: 1px solid #263238;
+    
+}
+
+.input-field > label {
+
+    color: #263238;    
+    
+}
+
+.form{
+    margin-top: 40px;
+}
+
+.parallax-container{
+    height: 300px;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*======================================================================================================================
+  ======================================================================================================================*/
