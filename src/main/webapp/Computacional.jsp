@@ -21,7 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     </head>
-    <body background="imagens/circuit.png"> 
+    <body>
 
         <header>
 
@@ -119,51 +119,46 @@
 
                     <!-- Noticia1 -->
                     <article class="col s12 m4">
-                        <div class="card medium">
+                        <div class="card small">
                             <div class="card-image">
-                                <img class="responsive-img" src="imagens/Slider1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img src="imagensNoticias/img1.jpg">
+
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title center-align">Método da Bisseção</span>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="Computacional_Bissecao.jsp">Visualizar</a>
                             </div>
                         </div>
                     </article>
 
                     <!-- Noticia 2 -->
                     <article class="col s12 m4 ">
-                        <div class="card medium">
+                        <div class="card small">
                             <div class="card-image">
-                                <img class="responsive-img" src="imagens/Slider1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img class="responsive-img" src="imagensNoticias/img2.png">
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title">Interpoção por Newtone</span>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="Computacional_Interpolacao.jsp">Visualizar</a>
                             </div>
                         </div>
                     </article>
 
                     <!-- Noticia 3 -->
                     <article class="col s12 m4">
-                        <div class="card medium">
+                        <div class="card small">
                             <div class="card-image">
                                 <img class="responsive-img" src="imagens/Slider1.jpg">
-                                <span class="card-title">Card Title</span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title center-align">Funções Reais&nbsp;&nbsp;&nbsp;</span>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="#">Visualizar</a>
                             </div>
                         </div>
                     </article>

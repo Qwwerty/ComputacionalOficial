@@ -2,6 +2,9 @@
     font-family: arial;
     color: #fff;
 }
+a{
+    text-decoration: none;
+}
 
 body{
     margin: 0px;
@@ -127,3 +130,22 @@ canvas {
 
 /*======================================================================================================================
   ======================================================================================================================*/
+table.centered tbody tr td:hover{
+     background: #ff0000;
+ }
+
+table.centered tbody tr:hover td{
+    background: #ff0000;
+}
+
+/*Edição da cor do link da pagina index.jsp*/
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: red;
+}
+
+
+/*teste */
+
+.collapsible-header:hover{
+    background-color: red;
+}

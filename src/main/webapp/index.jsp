@@ -64,29 +64,29 @@
                 <li>
                     <img src="imagens/Slider1.jpg"> <!-- random image -->
                     <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Com Tecnologia meu mundo ficaria completo</h3>
+                        <h5 class="light grey-text text-lighten-3">Tecnologia - bora ser feliz?</h5>
                     </div>
                 </li>
                 <li>
                     <img src="imagens/Slider2.jpg"> <!-- random image -->
                     <div class="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Tudo fica simples com Matemática</h3>
+                        <h5 class="light grey-text text-lighten-3">Vá mais longe com Matemática</h5>
                     </div>
                 </li>
                 <li>
                     <img src="imagens/Slider3.jpg"> <!-- random image -->
                     <div class="caption right-align">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Experimente Matemática, você vai gostar</h3>
+                        <h5 class="light grey-text text-lighten-3">Pense. Sinta. Matemática</h5>
                     </div>
                 </li>
                 <li>
                     <img src="imagens/Slider4.jpg"> <!-- random image -->
                     <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Inovação quando você precisa de resultados</h3>
+                        <h5 class="light grey-text text-lighten-3">Bem-vindo ao país da Inovação</h5>
                     </div>
                 </li>
             </ul>
@@ -103,15 +103,13 @@
                 <article class="col s12 l6 xl4">
                     <div class="card">
                         <div class="card-image">
-                            <img src="imagens/Slider1.jpg">
+                            <img src="imagensNoticias/img1.jpg">
                         </div>
                         <div class="card-content">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <span class="card-title center-align">Método da Bisseção</span>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="Computacional_Bissecao.jsp">Visualizar</a>
                         </div>
                     </div>
                 </article>
@@ -120,15 +118,13 @@
                 <article class="col s12 l6 xl4">
                     <div class="card">
                         <div class="card-image">
-                            <img src="imagens/Slider1.jpg">
+                            <img src="imagensNoticias/img2.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <span class="card-title center-align">Interpoção por Newton</span>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="Computacional_Interpolacao.jsp">Visualizar</a>
                         </div>
                     </div>
                 </article>
@@ -140,12 +136,10 @@
                             <img src="imagens/Slider1.jpg">
                         </div>
                         <div class="card-content">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
+                            <span class="card-title center-align">Funções Reais&nbsp;&nbsp;&nbsp;</span>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="#">Visualizar</a>
                         </div>
                     </div>
                 </article>

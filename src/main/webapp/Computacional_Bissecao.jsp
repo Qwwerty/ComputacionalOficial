@@ -122,29 +122,27 @@
 
         <!-- Teoria do algoritmo-->
         <ul class="collapsible">
-            <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Teoria da Interpolação por
-                    Newton
-                </div>
-                <div class="collapsible-body" id="padraTexto">
+            <li id="padraTexto">
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Teoria da Bisseção </div>
+                <div class="collapsible-body">
                             <span>
-                                Trata-se de uma fórmula alternativa para o cálculo do polinómio interpolador, 
-                                baseada numa construção sucessiva a partir dos polinómios de graus inferiores. 
+                                Trata-se de uma fórmula alternativa para o cálculo do polinómio interpolador,
+                                baseada numa construção sucessiva a partir dos polinómios de graus inferiores.
                                 Para estabelecer essa fórmula convém introduzir a noção de diferença dividida</br>
 
-                                <h6>Diferenças divididas</h6> 
+                                <h6>Diferenças divididas</h6>
 
-                                <p>As diferenças divididas são razões incrementais e constituem aproximações discretas de derivadas, desde 
-                                    que se utilizem pontos suficientemente próximos. No caso que nos interessa, iremos utilizar os nós 
-                                    de interpolação que podem estar bastante afastados. Veremos que para funções regulares é possível estabelecer 
-                                    uma relação entre o valor de uma diferença dividida e a derivada num certo ponto. 
+                                <p>As diferenças divididas são razões incrementais e constituem aproximações discretas de derivadas, desde
+                                    que se utilizem pontos suficientemente próximos. No caso que nos interessa, iremos utilizar os nós
+                                    de interpolação que podem estar bastante afastados. Veremos que para funções regulares é possível estabelecer
+                                    uma relação entre o valor de uma diferença dividida e a derivada num certo ponto.
                                     A diferença dividida de 1ª ordem é definida de uma forma geral por: <b>f [ xi, xj] = ( fi - fj ) / ( xi - xj )</b> </p>
 
                                 <p>e uma  diferença dividida de ordem k, pode ser obtida a partir das anteriores :
                                     f [ xi , ... , xi+k] = ( f [ xi+1, ... , xi+k ] - f [ xi, ... , xi+k-1 ] ) / ( xi+k - xi )
                                     (a regra subjacente é que no denominador vai ficar a diferença entre os nós, que não são comuns às diferenças divididas do numerador).
 
-                                    Observação: Qualquer permutação da ordem dos nós não altera o resultado. 
+                                    Observação: Qualquer permutação da ordem dos nós não altera o resultado.
                                     Ou seja, por exemplo, f [ x1, x2 , x3 ] = f [ x2, x3 , x1 ]
 
                                     Nota: Podemos considerar os valores fi como diferenças divididas de ordem zero, e reparamos que isso é coerente com a definição da diferença de 1ª ordem.
@@ -163,8 +161,53 @@
                                         p2(x) = f0 + f [ x0 , x1 ] ( x - x0) + f [ x0 , x1, x2 ] ( x - x0) ( x - x1)
                                         ... etc ...</b>
                                     Deduzimos assim a Fórmula Interpoladora de Newton :
-                                    <br>pn(x) = f0 + 	 n 
-                                    S 
+                                    <br>pn(x) = f0 + 	 n
+                                    S
+                                    k=1	 f [x0 , ... , xk] (x - x0 ) ... (x - xk-1)</b>
+                                </p>
+                            </span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Como usar </div>
+                <div class="collapsible-body">
+                            <span>
+                                Trata-se de uma fórmula alternativa para o cálculo do polinómio interpolador,
+                                baseada numa construção sucessiva a partir dos polinómios de graus inferiores.
+                                Para estabelecer essa fórmula convém introduzir a noção de diferença dividida</br>
+
+                                <h6>Diferenças divididas</h6>
+
+                                <p>As diferenças divididas são razões incrementais e constituem aproximações discretas de derivadas, desde
+                                    que se utilizem pontos suficientemente próximos. No caso que nos interessa, iremos utilizar os nós
+                                    de interpolação que podem estar bastante afastados. Veremos que para funções regulares é possível estabelecer
+                                    uma relação entre o valor de uma diferença dividida e a derivada num certo ponto.
+                                    A diferença dividida de 1ª ordem é definida de uma forma geral por: <b>f [ xi, xj] = ( fi - fj ) / ( xi - xj )</b> </p>
+
+                                <p>e uma  diferença dividida de ordem k, pode ser obtida a partir das anteriores :
+                                    f [ xi , ... , xi+k] = ( f [ xi+1, ... , xi+k ] - f [ xi, ... , xi+k-1 ] ) / ( xi+k - xi )
+                                    (a regra subjacente é que no denominador vai ficar a diferença entre os nós, que não são comuns às diferenças divididas do numerador).
+
+                                    Observação: Qualquer permutação da ordem dos nós não altera o resultado.
+                                    Ou seja, por exemplo, f [ x1, x2 , x3 ] = f [ x2, x3 , x1 ]
+
+                                    Nota: Podemos considerar os valores fi como diferenças divididas de ordem zero, e reparamos que isso é coerente com a definição da diferença de 1ª ordem.
+                                </p>
+
+                                <br/>
+
+                                <h6>Fórmula de Newton </h6>
+
+                                <p>Portanto, podemos agora escrever
+
+                                    <b>pn(x) = pn-1(x) + f [ x0 , ... , xn ] (x - x0) ... ( x - xn-1)</b>
+                                    e podemos obter sucessivamente, a partir do polinómio interpolador de grau zero <b>p0(x) = f0 :
+
+                                        p1(x) = f0 + f [ x0 , x1 ] ( x - x0)
+                                        p2(x) = f0 + f [ x0 , x1 ] ( x - x0) + f [ x0 , x1, x2 ] ( x - x0) ( x - x1)
+                                        ... etc ...</b>
+                                    Deduzimos assim a Fórmula Interpoladora de Newton :
+                                    <br>pn(x) = f0 + 	 n
+                                    S
                                     k=1	 f [x0 , ... , xk] (x - x0 ) ... (x - xk-1)</b>
                                 </p>
                             </span></div>
@@ -176,24 +219,24 @@
 
             <div class="col s12 container">
                 <div class="input-field col s4 m3 l3">
-                    <input placeholder="" name="A" type="text" class="validate">
+                    <input placeholder="1" name="A" type="text" class="validate">
                     <label for="A">A</label>
                 </div>
 
                 <div class="input-field col s4 m3 l3">
-                    <input placeholder="" name="B" type="text" class="validate">
+                    <input placeholder="2" name="B" type="text" class="validate">
                     <label for="B">B</label>
                 </div>
 
                 <div class="input-field col s4 m3 l3">
-                    <input placeholder="" name="erro" type="text" class="validate">
+                    <input placeholder="0.001" name="erro" type="text" class="validate">
                     <label for="erro">Erro</label>
                 </div>
 
 
 
                 <div class="input-field col s12 m12 l12 offset-s4  pull-s4 ">
-                    <input placeholder="" name="funcao" type="text" class="validate">
+                    <input placeholder="(x ^ 2) - 3" name="funcao" type="text" class="validate">
                     <label for="funcao">F(x)</label>
                 </div>
 
