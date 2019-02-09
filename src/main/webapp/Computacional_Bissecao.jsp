@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!--FavIcon-->
+    <link rel="shortcut icon" type="image/png" href="imagens/modelo_favicon.png"/>
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -96,26 +99,128 @@
     <div class="parallax-container col s12 m12 l12 hide-on-small-only ">
         <div class="parallax"><img src="imagens/bg1.jpg" width="1500px"></div>
     </div>
-    <!-- Parallax para o mobile-->
-    <div class="parallax-container col s12 m12 l12 hide-on-med-only hide-on-med-and-up">
-        <div class="parallax"><img src="imagens/bg1.jpg" width="1500px" height=""></div>
+
+    <!-- Slider para o mobile-->
+    <!-- Slider -->
+    <div class="slider hide-on-med-and-up">
+        <ul class="slides">
+            <li>
+                <img src="imagens/Slider1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Com Tecnologia meu mundo ficaria completo</h3>
+                    <h5 class="light grey-text text-lighten-3">Tecnologia - bora ser feliz?</h5>
+                </div>
+            </li>
+            <li>
+                <img src="imagens/Slider2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Tudo fica simples com Matemática</h3>
+                    <h5 class="light grey-text text-lighten-3">Vá mais longe com Matemática</h5>
+                </div>
+            </li>
+            <li>
+                <img src="imagens/Slider3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Experimente Matemática, você vai gostar</h3>
+                    <h5 class="light grey-text text-lighten-3">Pense. Sinta. Matemática</h5>
+                </div>
+            </li>
+            <li>
+                <img src="imagens/Slider4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Inovação quando você precisa de resultados</h3>
+                    <h5 class="light grey-text text-lighten-3">Bem-vindo ao país da Inovação</h5>
+                </div>
+            </li>
+        </ul>
     </div>
 
+
     <div class="col s12 m12 l4 ">
-        <div class="col s12 center-align" id="elementosComputacional">
-            <div class="card-panel grey darken-3">Métodos e Funções</div>
-            <ul>
-                <!-- Dropdown Trigger -->
-                <li><a class='dropdown-trigger btn grey darken-3' href='#' data-target='dropdown3'>Raízes de
-                    Equações</a></li>
-                <li><a class='dropdown-trigger btn grey darken-3' href='#' data-target='dropdown4'>Interpolação</a></li>
-                <li><a class='dropdown-trigger btn grey darken-3' href='#' data-target='dropdown5'>Sistema de Equações
-                    Lineares</a></li>
-                <li><a class='dropdown-trigger btn grey darken-3' href='#' data-target='dropdown1'>Integração</a></li>
+        <ul class="collapsible">
+            <!--Raízes de Equações-->
+            <li>
+                <div class="collapsible-header"><i class="material-icons">dehaze</i>Raízes de Equações</div>
+                <div class="collapsible-body">
 
-            </ul>
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="Computacional_Bissecao.jsp">Método da Bisseção</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de Newton-Raphson</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de Falsa Posição</a></div>
+                        </li>
+                    </ul>
 
-        </div>
+                </div>
+            </li>
+
+            <!--Interpolação-->
+            <li>
+                <div class="collapsible-header"><i class="material-icons">dehaze</i>Interpolação</div>
+                <div class="collapsible-body">
+
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método da Lagrange</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="Computacional_Interpolacao.jsp">Método de Newton</a></div>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+            <!--Sistema de Equações Lineares-->
+            <li>
+                <div class="collapsible-header"><i class="material-icons">dehaze</i>Sistema de Equações Lineares</div>
+                <div class="collapsible-body">
+
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método da Gauss</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de LU</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de Choleski</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de jacobi</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Método de Gauss-Seidl</a></div>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+            <!--Integração-->
+            <li>
+                <div class="collapsible-header"><i class="material-icons">dehaze</i>Integração</div>
+                <div class="collapsible-body">
+
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Regra do Trapézio</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Primeira Regra de Simpson</a></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">star</i><a href="#">Segunda Regra de Simpsoni</a></div>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+        </ul>
     </div>
 
     <div class="col s12 m12 l8">

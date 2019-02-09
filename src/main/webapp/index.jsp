@@ -17,6 +17,9 @@
         <link rel="stylesheet" href="css/materialize.css">
         <link rel="stylesheet" href="css/estilo.css">
 
+        <!--FavIcon-->
+        <link rel="shortcut icon" type="image/png" href="imagens/modelo_favicon.png"/>
+
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -144,9 +147,32 @@
                     </div>
                 </article>
 
+                <h5 class="light">Sobre o Autor</h5>
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <img width="100" src="imagensNoticias/18671201_10207363828053563_4977241748007945708_n.jpg" class="circle responsive-img">
+                        <p>Nome: Rhalf S. Oliveira.<br>
+                            Estudante: Ciência da Computação.<br>
+                            Idade: 21 anos.<br>
+                            Sonho: Virar um desenvolvedor profissional.<br><br>
+                            Conhecimentos
+
+                        </p>
+                        <ul class="collection">
+                            <li style="color:black;" class="collection-item"><p>Java SE, Java EE</p></li>
+                            <li style="color:black;" class="collection-item"><p></p>HTML, CSS, Javascript<p></p></li>
+                            <li style="color:black;" class="collection-item"><p>Linguagens: C, C++, C#</p></li>
+                            <li style="color:black;" class="collection-item"><p>Github</p></li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Sobre o Site</a>
+                    </div>
+                </div>
 
 
-            </section> 
+
+            </section>
 
             <aside class="col s12 m6 l3">
                 <h5 class="light">Mais lidas</h5>
@@ -185,19 +211,6 @@
                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
                     </li>
                 </ul>
-
-                <h5 class="light">Sobre o Autor</h5>
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">>
-                        <img width="100" src="imagens/user.png" class="circle responsive-img">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
-                    </div>
-                </div>
 
             </aside>
 

@@ -23,4 +23,12 @@
     .btn{
         display: none;
     }
+
+    .slider{
+        display: none;
+    }
+
+    .collapsible{
+        display: none;
+    }
 }
